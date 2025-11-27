@@ -1,0 +1,12 @@
+Copyright © Baako Consulting LLC. All rights reserved.
+
+This software and associated documentation files (the "Software") are proprietary
+to Baako Consulting LLC.
+
+Author: Raphael Baako
+Email: rbaako@baakoconsultingllc.com
+Company: Baako Consulting LLC
+
+All rights reserved.
+
+
