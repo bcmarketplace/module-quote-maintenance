@@ -1,0 +1,32 @@
+{
+  "name": "bcmarketplace/module-quote-maintenance",
+  "description": "Professional quote lifecycle management module for Adobe Commerce. Automatically removes stale quotes based on configurable age thresholds.",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Raphael Baako",
+      "email": "rbaako@baakoconsultingllc.com",
+      "homepage": "https://baakoconsultingllc.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~8.2.0||~8.3.0",
+    "magento/framework": ">=103.0.0",
+    "magento/module-quote": ">=101.2.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "BCMarketplace\\QuoteMaintenance\\": ""
+    }
+  }
+}
+
+

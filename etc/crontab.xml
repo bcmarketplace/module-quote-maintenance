@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Baako Consulting LLC. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="bcmarketplace_quote_maintenance">
+        <job name="bcmarketplace_quote_maintenance_delete_old_quotes" instance="BCMarketplace\QuoteMaintenance\Cron\DeleteOldQuotes" method="execute">
+            <schedule>0 2 * * *</schedule>
+        </job>
+    </group>
+</config>
+
+
