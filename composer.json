@@ -2,7 +2,7 @@
   "name": "bcmarketplace/module-quote-maintenance",
   "description": "Professional quote lifecycle management module for Adobe Commerce. Automatically removes stale quotes based on configurable age thresholds.",
   "type": "magento2-module",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": [
     "proprietary"
   ],
